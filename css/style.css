@@ -308,9 +308,7 @@ a{
 .seafood__item--text-right .seafood__item-content{
   margin-right: 180px;
 }
-
 .seafood__item-img {
-
 }
 .seafood__blockquote {
   max-width: 800px;
@@ -326,3 +324,45 @@ a{
   margin: 0 auto;
   line-height: 24px;
 }
+.contacts {
+  background: url(../images/contacts-bg.jpg) bottom left no-repeat;
+  /* background-size: cover; */
+}
+.contacts__box {
+  margin-left: auto;
+  width: 390px;
+  background-color: #fff;
+  padding: 33px 0 33px 20px;
+}
+.contacts__box-text {
+  width: 195px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #001e64;
+  margin-bottom: 30px;
+}
+.contacts__box-list{
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 21px;
+}
+.contacts__box-item {
+  margin-top: 30px;
+}
+.contacts__box-item span{
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
