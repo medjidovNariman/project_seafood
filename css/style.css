@@ -150,6 +150,11 @@ a{
   display: inline-block;
   transform: translateY(-100px);
   position: absolute;
+  transition: all .3s;
+}
+.header__content-btn:hover{
+  background-color: rgba(255,255,255, 1);  
+  color: #001e64;
 }
 .header__content-box{
   display: flex;
@@ -249,8 +254,12 @@ a{
   border: 1px solid #001e64;
   border-radius: 20px;
   cursor: pointer;
+  transition: all .3s;
 }
-
+.product__content-btn:hover{
+  background-color: #001e64;
+  color: #fff;
+}
 .seafood-box{
   padding: 290px 0 95px;
   background: url(../images/seafood-bg.jpg) top center no-repeat;
@@ -354,6 +363,34 @@ a{
   display: block;
 }
 
+.footer {
+  padding: 25px 0 110px;
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 45px 0 23px;
+}
+.footer .menu{
+  padding-bottom: 30px;
+}
+
+.footer-social__list {
+  list-style-type: none;
+  display: flex;
+  align-items: center; 
+  padding-bottom: 19px; 
+}
+.footer-social__item + .footer-social__item{
+  margin-left: 10px;
+}
+.footer-social__link path{
+  transition: all .3s;
+}
+.footer-social__link:hover path{
+  fill: #001e64;
+}
 
 
 
