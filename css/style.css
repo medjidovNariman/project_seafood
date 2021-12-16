@@ -249,5 +249,80 @@ a{
   border: 1px solid #001e64;
   border-radius: 20px;
   cursor: pointer;
+}
 
+.seafood-box{
+  padding: 290px 0 95px;
+  background: url(../images/seafood-bg.jpg) top center no-repeat;
+  background-size: cover;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+.seafood-box__items{
+  display: flex;
+  justify-content: space-around;
+}
+.seafood-box__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url(../images/seafood-decor.svg) center no-repeat;
+    background-size: cover;
+    width: 180px;
+    min-height: 165px;
+}
+.seafood {
+  padding: 100px 0;
+}
+
+.seafood__items {
+  margin-bottom: 100px;
+}
+.seafood__item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.seafood__item-content {
+}
+.seafood__item-title {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  max-width: 490px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #001e64;
+}
+.seafood__item-text {
+  max-width: 420px;
+  margin-bottom: 20px;
+}
+.seafood__item--text-right .seafood__item-title{
+  max-width: 420px;
+}
+.seafood__item--text-right .seafood__item-content{
+  margin-right: 180px;
+}
+
+.seafood__item-img {
+
+}
+.seafood__blockquote {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.seafood__blockquote-img {
+}
+.seafood__blockquote-text {
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  max-width: 530px;
+  margin: 0 auto;
+  line-height: 24px;
 }
